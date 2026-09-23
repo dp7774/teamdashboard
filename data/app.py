@@ -99,16 +99,15 @@ with st.sidebar:
 with st.sidebar:
     st.header('팀원 대시보드 바로가기')
 
+    st.link_button(
+        '신예지 | 2024 부산항 입항 선박 현황',
+        'https://teamdashboard-test.streamlit.app/'
+    )
 
 
     st.link_button(
         '옥재승 | 항만 컨테이너 물동량',
         'https://dpzxrhykwvuj5uy8qyor5c.streamlit.app/'
-    )
-
-    st.link_button(
-        '신예지 | 2024 부산항 입항 선박 현황',
-        'https://teamdashboard-test.streamlit.app/'
     )
 
 # =========================================================
