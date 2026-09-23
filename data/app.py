@@ -95,13 +95,6 @@ with st.sidebar:
 
 
 # 조원 링크
-st.set_page_config(
-    page_title='팀 프로젝트 대시보드',
-    layout='wide'
-)
-
-st.title('팀 프로젝트 통합 대시보드')
-st.caption('조원별 분석 대시보드를 선택하세요.')
 
 with st.sidebar:
     st.header('대시보드 바로가기')
