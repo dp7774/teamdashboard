@@ -1,0 +1,11 @@
+[project]
+name = "teamdashboard"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.2",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+    "streamlit>=1.64.0",
+]
