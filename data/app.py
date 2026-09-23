@@ -97,7 +97,7 @@ with st.sidebar:
 # 조원 링크
 
 with st.sidebar:
-    st.header('대시보드 바로가기')
+    st.header('팀원 대시보드 바로가기')
 
     st.link_button(
         '옥재승님의 대시보드',
