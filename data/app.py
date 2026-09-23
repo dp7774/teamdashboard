@@ -107,13 +107,13 @@ with st.sidebar:
     st.header('팀원 대시보드 바로가기')
 
     st.link_button(
-        '김경민 | ',
+        '김경민 | 북항 · 신항 물동량 비율',
         'https://mandlemandle.streamlit.app/ '
     )
 
     st.link_button(
-        '남시윤 | ',
-        ' '
+        '남시윤 | 부산항 시설별 KPI ',
+        'https://fdlsdjgioerhgiopepo1.streamlit.app/'
     )
 
     st.link_button(
