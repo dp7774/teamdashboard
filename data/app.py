@@ -368,6 +368,10 @@ corr_df = monthly_visit.dropna(
     subset=['전월대비증감률(%)']
 ).copy()
 
+st.caption(
+    '전월 대비 증감률은 월별 입항 선박 수를 이용해 계산된 값이므로, 0.81이라는 1에 가까운 상관계수가 도출 되었습니다.'
+)
+
 
 # 상관계수
 corr_value = corr_df['전체선박수'].corr(
