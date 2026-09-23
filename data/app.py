@@ -111,7 +111,10 @@ with st.sidebar:
         'https://dpzxrhykwvuj5uy8qyor5c.streamlit.app/'
     )
 
-
+    st.link_button(
+        '신예지님의 대시보드',
+        'https://teamdashboard-test.streamlit.app/'
+    )
 
 # =========================================================
 # 5. 필터 적용
